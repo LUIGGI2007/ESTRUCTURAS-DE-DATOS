@@ -1,0 +1,5 @@
+2300614928|Yandy Josue|Velez Valencia|yvelez@espe.edu.ec|147852
+2350495616|Luis|Alcivar|lalcivar@espe.edu.ec|123456
+1715306344|Lady Maite|Carrillo|lcarrillo@espe.edu.ec|123456789
+1752676252|Davis Ariel|cobeña bravo|dcobena@espe.edu.ec|1752676252
+1803005071|Fer|Solis|fsolis@espe.edu.ec|123456789

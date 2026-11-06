@@ -1,0 +1,46 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compilar asistencia",
+			"type": "shell",
+			"command": "g++ -std=c++17 -Wall -Wextra -pedantic *.cpp -o asistencia_v6.exe",
+			"problemMatcher": "$gcc",
+			"group": "build"
+		},
+		{
+			"label": "Ejecutar asistencia",
+			"type": "shell",
+			"command": ".\\asistencia_v6.exe",
+			"dependsOn": "Compilar asistencia",
+			"dependsOrder": "sequence",
+			"problemMatcher": []
+		},
+		{
+			"label": "Ejecutar asistencia v7",
+			"type": "shell",
+			"command": "g++",
+			"args": [
+				"-std=c++17",
+				"-Wall",
+				"-Wextra",
+				"-pedantic",
+				"*.cpp",
+				"-o",
+				"asistencia.exe"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Iniciar asistencia compilada",
+			"type": "shell",
+			"command": ".\\asistencia.exe",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
